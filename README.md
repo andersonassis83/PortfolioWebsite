@@ -1,2 +1,2 @@
 # PortfolioWebsite
-WIP - My website
+WIP - My website. I used: HTML; CSS; Javascript: jQuery.
