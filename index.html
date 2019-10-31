@@ -1,117 +1,195 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Assis art-design</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="_img/Aad_favicon.png">
-        <link rel="stylesheet" href="_css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="_css/style.css">
+    <title>Assis Art Design</title>
+</head>
+<body data-style="scroll" data-target="#navbar-responsive">
 
-    </head>
-    <body>
-        <figure class="banner">
-            <img src="_img/bg-home.jpg" alt="">
+<!--Start home section-->
+    <header id="home">
 
-            <section class="slogan">
-                <h1>Arte, Design e Tecnologia, </br>
-                    tudo em um só lugar.                
-                </h1>
-            </section>
-        </figure>
-        <header class="cabecalho">
-            <a href="index.html"><img class="logo" src="_img/Aad_simble_small.png" alt="Assis art-design"></a>
-            <section class="btn-menu"> <img src="_img/bars.png" alt=""> </section>
-            <nav class="menu">
-                <a class="btn-close"> <img src="_img/close.png" alt=""> </a>
-                <ul>
-                    <li>HOME</li>
-                    <li>QUEM SOU</li>
-                    <li>PORTFOLIO</li>
-                    <li>CONTATO</li>
-
+<!--Start navigator-->        
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <a href="" class="navbar-brand"><img id="logo-symbol" src="_img/Aad_simble_small.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-responsive">
+                <span><img src="_img/bars.png" alt="botão do menu"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-responsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Serviços</a>
+                        <div class="dropdown-menu subitem">
+                            <a class="dropdown-item" href="ilustracao.html">Ilustração</a>
+                            <a class="dropdown-item" href="#">Design</a>
+                            <a class="dropdown-item" href="#">Website</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://www.youtube.com/channel/UCWu4TSPLI4_k413PhX6tisg" target="_blank no-referrer no-opener">Audiovisual</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">Quem sou</a></li>
+                    <li class="nav-item"><a href="https://andersonassis83.wordpress.com/" target="_blank" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
                 </ul>
-            </nav>
-        </header>
-        <section class="portfolio">
-            <article class="box-portfolio">
-                <div class="fill-box">
-                    <h3><a href="ilustracao.html">ILUSTRAÇÃO</a></h3>
+            </div>
+        </nav>
+<!--End navigator-->
+
+<!--Start landing-->
+    <section class="landing">   
+        <div class="home-wrap">
+            <div class="home-inner">
+                <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="_img/bg-home1.jpg" alt="Primeiro Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="_img/bg-home2.jpg" alt="Segundo Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="_img/bg-home3.jpg" alt="Terceiro Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="_img/bg-home4.jpg" alt="Quarto Slide">
+                        </div>
+                    </div>
                 </div>
-                <a href="ilustracao.html"><img src="_img/ilustracao-thumb.png" alt=""></a>
-            </article>
-            <article class="box-portfolio">
-                <div class="fill-box">
-                    <h3><a href="design.html">DESIGN</a></h3>
-                 </div>
-                <a href="design.html"><img src="_img/design-thumb.png" alt=""></a>
-            </article>
-            <article class="box-portfolio">
-                <div class="fill-box">
-                    <h3><a href="site.html">SITE</a></h3>
+            </div>
+        </div>
+
+        <div class="container caption d-flex align-item-center">
+            <div class="landing-text-box col-sm-12 col-md-4 float-left">
+                <a href="#contato">
+                    <h2>Aqui você encontra</h2>
+                    <h3>arte, design, tecnologia</h3>
+                    <h3>tudo em um só lugar.</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+<!--End landing-->
+
+    </header>
+<!--End home section-->
+
+<!--Start atuações section-->
+    <section class="" id="jobs">
+        <div class="row">
+            <div class="col-md-4 pr-0 pl-0">                 
+                <div class="fill-box col-12 pr-0 pl-0">
+                    <a class="link-thumb d-flex justify-content-center" href="ilustracao.html">Ilustração</a>                
                 </div>
-                <a href="site.html"><img src="_img/site-thumb.png" alt=""></a>
-            </article>
+                <a href="ilustracao.html"><img class="img-thumb" src="_img/ilustracao-thumb.png" alt="Ilustração"></a>
+            </div>
+            <div class="col-md-4 pr-0 pl-0">
+                <div class="fill-box col-12 pr-0 pl-0">
+                    <a class="link-thumb d-flex justify-content-center" href="design.html">Design</a>
+                </div>
+                <a href="design.html"> <img class="img-thumb" src="_img/design-thumb.png" alt="Design"></a>
+            </div>
+            <div class="col-md-4 pr-0 pl-0">
+                <div class="fill-box col-12 pr-0 pl-0">
+                    <a class="link-thumb d-flex justify-content-center" href="site.html">Site</a>
+                </div>
+                <a href="site.html"><img class="img-thumb" src="_img/site-thumb.png" alt="Sites"></a>
+            </div>
+        </div>
+    </section>
+<!--End atuações section-->
+
+<!--Start about section-->
+<section class="section" id="about">
+    <div class="container mt-3 pt-3 mb-3 pb-3">
+        <h2 class="section-title">QUEM SOU</h2>
+    </div>
+    <div class="row mt-3 pt-3 mb-3 pb-3">
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <div class="about-image">
+                <img class="rounded-circle" src="_img/avatar.jpg" alt="Anderson Assis">
+            </div>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <div class="about-content">
+                <header class="about-text-title pl-3">
+                    <h4>Anderson Assis</h4>
+                    <h6>Ilustrador e Desenvolvedor Web</h6>
+                </header>
+                <article class="about-text pr-3 pl-3">
+                    <p>Estudante de Pós Graduação em Engenharia de Software, Tecnólogo em Análise e Desenvolvimento de Sistemas
+                        e formado em Design Gráfico desde 2012, com cursos técnicos em Artes e Audiovisual. Atua com ilustração,
+                        animação, criação e desenvolvimento de peças gráficas impressas e digitais, animação, motion graphics, produção,
+                        edição, pós produção de vídeos, trilhas sonoras e desenvolvimento front-end.                            
+                    </p>
+                    <a href="curriculum.html"><button class="btn btn-lg btn-warning">saiba mais</button></a>                  
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End about section-->
+
+<!--Start contact section-->
+    <section class="section" id="contact">
+        <div class="row bg-ligth ">
+            <div class="container mt-3 mb-3">
+                <div class="row mt-3 mb-3">
+                    <h2 class="section-title ">CONTATO</h2>
+                </div>
+                <form  class="form-group" action="" method="POST">
+                    <div class="row mt-4 mb-4">
+                        <label class="contato-label" for="nome">Nome:</label>
+                        <input class="form-control-lg col-12" type="text" name="nome" id="nome" placeholder="digite seu nome">
+                    </div>
+                    <div class="row mt-4 mb-4">
+                        <label class="contato-label" for="email">E-mail:</label>
+                        <input class="form-control-lg col-12" type="email" name="email" id="email" placeholder="digite seu e-mail">
+                    </div>
+                    <div class="row mt-4 mb-4">
+                    <label class="contato-label" for="contato-select">Área de interesse</label>
+                        <select class="form-control-lg col-12" id="contato-select">
+                            <option>--Selecione--</option>
+                            <option>Ilustração</option>
+                            <option>Design</option>
+                            <option>Site</option>
+                            <option>Mista</option>
+                        </select>
+                    </div>
+                    <div class="row mt-4 mb-4">
+                        <label class="contato-label" for="msg">Mensagem:</label>
+                        <textarea class="form-control" id="msg" rows="5" placeholder="digite a sua mensagem"></textarea>
+                    </div>
+                    <div class="row mt-4">
+                        <button class="btn btn-lg btn-warning" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+<!--End contact section--> 
+
+<!--Start footer section-->
+    <footer class="section bg-dark">
+        <section class="d-flex justify-content-center pt-4">
+            <div class="rsocial mr-2 ml-2 mt-2"><a href="https://br.pinterest.com/andersonassisar/" target="blank"><img class="img-rsocial" src="_img/pinterest.png" alt=""></a></div>
+            <div class="rsocial mr-2 ml-2 mt-2"><a href="https://www.behance.net/assisartdesign" target="blank"><img class="img-rsocial" src="_img/behance.png" alt=""></a></div>
+            <div class="rsocial mr-2 ml-2 mt-2"><a href="https://github.com/andersonassis83" target="blank"><img class="img-rsocial" src="_img/github.png" alt=""></a></div>
         </section>
 
-        <section class="box-quemsou">
-
-            <section class="box-foto"></section>
-
-            <article class="box-texto">
-                <h3>Anderson Assis</h3>
-                <p> Estudante de Pós Graduação em Engenharia de Software,
-                    Tecnólogo em Análise e Desenvolvimento de Sistemas e formado em Design Gráfico
-                    desde 2012, com cursos técnicos em Artes e Audiovisual. Experiência em ilustração,
-                    animação, criação e desenvolvimento de peças gráficas impressas e digitais, animação,
-                    motion graphics, produção, edição e pós produção de vídeos.
-                </p>
-            </article>
+        <section class="d-flex justify-content-center mt-3 pt-3">
+            <p class="text-white">Site desenvolvido por: Anderson Assis</p>
         </section>
 
-        <article class="contato">
-                <section id="box-contato">
-                    <form id="formulario" name="formulario-contato" action="" method="post">
-                        <h2>CONTATO</h2>
-                        <p class="nome">
-                            <input type="text" name="nome" placeholder="o seu nome" required="required">
-                        </p>
-                         <p class="email">
-                            <input type="email" name="email" placeholder="o seu e-mail" required="required">
-                        </p>
-                        <p class="assunto">
-                            <input type="text" name="assunto" placeholder="qual é o assunto?" required="required">
-                        </p>
-                        <p class="mensagem">
-                            <textarea type="text" name="mensagem" placeholder="digite a sua mensagem" required="required"></textarea>
-                        </p>
-                        <p class="btn-enviar">
-                            <input type="submit" name="enviar" value="Enviar">
-                        </p>
-                    </form>
-                </section>
-        </article>
+    </footer>
+<!--End footer section-->
 
-        <footer class="rodape">
-            <section class="box-rodape">
-                <div class="rsocial"><a href="https://br.pinterest.com/andersonassisar/" target="blank"><img class="img-rsocial" src="_img/pinterest.png" alt=""></a></div>
-                <div class="rsocial"><a href="https://www.behance.net/assisartdesign" target="blank"><img class="img-rsocial" src="_img/behance.png" alt=""></a></div>
-                <div class="rsocial"><a href="https://github.com/andersonassis83" target="blank"><img class="img-rsocial" src="_img/github.png" alt=""></a></div>
-            </section>
-
-            <section class="box-rodape">
-                <p>Site desenvolvido por: Anderson Assis</p>
-            </section>
-
-        </footer>
-
-        <div id="topButton"><a href="#">^</a></div>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="_js/lib.js"></script>
-        <script src="_js/jquery-3.2.1.min.js"></script>
-
-    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
